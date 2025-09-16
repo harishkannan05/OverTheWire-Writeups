@@ -4,7 +4,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 
 # Writeups for all Levels 
 <details>
-  <summary> Level 0 </summary>
+  <summary> Level 0 </summary>  
 
   SSH into the game using the credentials given.
   ```
@@ -13,7 +13,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details>  
 
 <details>
-  <summary> Level 1 </summary>
+  <summary> Level 1 </summary>  
 
   The password for the next level is stored in a file called `readme` located in the home directory.  
   ```
