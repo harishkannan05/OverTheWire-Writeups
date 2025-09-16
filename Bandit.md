@@ -54,7 +54,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 <details>
   <summary> Level 4 </summary>  
 
-  The password for the next level is stored in a **hidden file** in the 'inhere' directory.  
+  The password for the next level is stored in a **hidden file** in the `inhere` directory.  
   ```
   ls -la
   ```   
@@ -66,7 +66,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 <details>
   <summary> Level 5 </summary>  
 
-  The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+  The password for the next level is stored in the **only human-readable file** in the `inhere` directory. Tip: if your terminal is messed up, try the “reset” command.
   ```
   file ./-*
   ```   
