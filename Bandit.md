@@ -52,7 +52,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details>  
 
 <details>
-  <summary> Level 3 </summary>  
+  <summary> Level 4 </summary>  
 
   The password for the next level is stored in a **hidden file** in the 'inhere' directory.  
   ```
