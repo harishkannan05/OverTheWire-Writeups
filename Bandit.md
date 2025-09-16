@@ -4,7 +4,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 
 # Writeups for all Levels 
 <details>
-  <summary>[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)</summary>
+  <summary> Level 0 </summary>
 
   SSH into the game using the credentials given.
   ```
