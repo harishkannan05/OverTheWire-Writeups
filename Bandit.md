@@ -10,4 +10,14 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```
   ssh bandit0@bandit.labs.overthewire.org -p 2220
   ```
+</details>  
+
+<details>
+  <summary> Level 1 </summary>
+
+  The password for the next level is stored in a file called `readme` located in the home directory.  
+  ```
+  cat readme
+  ```  
+  <img width="765" height="247" alt="image" src="https://github.com/user-attachments/assets/ba210c00-0eb2-4aed-970a-1cdf4d61db71" />
 </details>
