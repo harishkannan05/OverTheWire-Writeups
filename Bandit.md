@@ -26,3 +26,15 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ssh bandit1@bandit.labs.overthewire.org -p 2220
   ```
 </details>
+
+<details>
+  <summary> Level 2 </summary>  
+
+  The password for the next level is stored in a file called `-` located in the home directory.   
+  ```
+  cat ./-
+  ```   
+  <img width="302" height="43" alt="image" src="https://github.com/user-attachments/assets/17c9d81f-3484-4a21-a82b-24c89c961f86" />
+  
+  **Explaination:** Using the Relative/Absolute path ensures that files starting with `-` are properly referenced and avoids misinterpretation as an option or argument."
+</details> 
