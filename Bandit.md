@@ -21,7 +21,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```  
   <img width="765" height="247" alt="image" src="https://github.com/user-attachments/assets/ba210c00-0eb2-4aed-970a-1cdf4d61db71" />  
   
-  Now, we can SSH **bandit1** for the next level.  
+  Now, we can SSH into **bandit1** for the next level.  
   ```
   ssh bandit1@bandit.labs.overthewire.org -p 2220
   ```
