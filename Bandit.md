@@ -62,3 +62,15 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   
   **Explaination:** Use the `-a` switch with the `ls` command to list all files, including hidden ones.
 </details> 
+
+<details>
+  <summary> Level 5 </summary>  
+
+  The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+  ```
+  file ./-*
+  ```   
+  <img width="764" height="215" alt="image" src="https://github.com/user-attachments/assets/82664100-77a6-45f1-a337-8694e8c7ad37" />
+  
+  **Explaination:** Use the `file` command to determine the file type. The `*` wildcard can be used to refer to all files.
+</details> 
