@@ -50,3 +50,15 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   
   **Explaination:** To avoid the command treating each word as a separate file, enclose the filename with spaces in single quotes.
 </details>  
+
+<details>
+  <summary> Level 3 </summary>  
+
+  The password for the next level is stored in a **hidden file** in the 'inhere' directory.  
+  ```
+  ls -la
+  ```   
+  <img width="615" height="157" alt="image" src="https://github.com/user-attachments/assets/92f86090-b51c-460d-b090-9a4d812f545a" />
+  
+  **Explaination:** Use the `-a` switch with the `ls` command to list all files, including hidden ones.
+</details> 
