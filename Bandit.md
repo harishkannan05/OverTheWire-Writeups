@@ -36,7 +36,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
   <img width="302" height="43" alt="image" src="https://github.com/user-attachments/assets/17c9d81f-3484-4a21-a82b-24c89c961f86" />
   
-  **Explaination:** Using the Relative/Absolute path ensures that files starting with `-` are properly referenced and avoids misinterpretation as an option or argument."
+  **Explanation:** Using the Relative/Absolute path ensures that files starting with `-` are properly referenced and avoids misinterpretation as an option or argument."
 </details>  
 
 <details>
@@ -48,7 +48,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
   <img width="490" height="43" alt="image" src="https://github.com/user-attachments/assets/384374c8-e638-4278-a975-90bb28322fad" />
   
-  **Explaination:** To avoid the command treating each word as a separate file, enclose the filename with spaces in single quotes.
+  **Explanation:** To avoid the command treating each word as a separate file, enclose the filename with spaces in single quotes.
 </details>  
 
 <details>
@@ -60,7 +60,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
   <img width="615" height="157" alt="image" src="https://github.com/user-attachments/assets/92f86090-b51c-460d-b090-9a4d812f545a" />
   
-  **Explaination:** Use the `-a` switch with the `ls` command to list all files, including hidden ones.
+  **Explanation:** Use the `-a` switch with the `ls` command to list all files, including hidden ones.
 </details> 
 
 <details>
@@ -72,7 +72,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
   <img width="764" height="215" alt="image" src="https://github.com/user-attachments/assets/82664100-77a6-45f1-a337-8694e8c7ad37" />
   
-  **Explaination:** Use the `file` command to determine the file type. The `*` wildcard can be used to refer to all files.
+  **Explanation:** Use the `file` command to determine the file type. The `*` wildcard can be used to refer to all files.
 </details> 
 
 <details>
@@ -87,5 +87,24 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
   <img width="758" height="48" alt="image" src="https://github.com/user-attachments/assets/42d86d2c-defb-4ac3-a852-c5b5119daa6b" />
   
-  **Explaination:** Use the `find` command with the `-size` and `-executable` flags, then run `file` on them and filters results for ASCII text files.
+  **Explanation:** Use the `find` command with the `-size` and `-executable` flags, then run `file` on them and filters results for ASCII text files.
 </details> 
+
+<details>
+  <summary> Level 6 </summary>  
+
+  The password for the next level is stored somewhere on the server and has all of the following properties:
+  - owned by user bandit7
+  - owned by group bandit6
+  - 33 bytes in size
+  ```
+  find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+  ```   
+  <img width="684" height="43" alt="image" src="https://github.com/user-attachments/assets/53c08633-7107-4ad6-a9e0-cfac0a1b9b6e" />
+  
+  **Explanation:** Use the `find` command with the `-user`, `-group`, and `-size` flags and redirect errors to `/dev/null`.
+</details> 
+
+
+
+
