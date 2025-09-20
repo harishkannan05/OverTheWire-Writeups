@@ -117,5 +117,17 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Prints the contents of `data.txt` and filters out only the line containing the word **millionth.**
 </details> 
 
+<details>
+  <summary> Level 8 </summary>  
+
+  The password for the next level is stored in the file `data.txt` and is the only line of text that occurs only once.
+  ```
+  sort data.txt | uniq -u
+  ```   
+ <img width="385" height="45" alt="image" src="https://github.com/user-attachments/assets/288bbb46-8c2d-4876-b422-28d2c0272977" />
+
+  **Explanation:** Use `uniq` with the `-u` flag to print all unique lines. Uniq only checks adjacent lines, so sort the file first. 
+</details> 
+
 
 
