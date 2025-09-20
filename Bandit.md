@@ -153,5 +153,15 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Use `base64` with the `-d` flag to decode the base64 encoded data.
 </details>
 
+<details>
+  <summary> Level 11 </summary>  
 
+  The password for the next level is stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
+  ```
+  cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+  ```   
+ <img width="542" height="42" alt="image" src="https://github.com/user-attachments/assets/0031ae47-bf0a-4139-94e4-67cbdf7fccc3" />
+
+  **Explanation:** Use `tr` to translate (rotate) the letters. So, "A-Z" maps to "N-ZA-M" and "a-z" to "n-za-m"
+</details>
 
