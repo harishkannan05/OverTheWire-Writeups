@@ -141,3 +141,17 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Use `strings` to print out all the human-readable text. With `grep` filter out the text containing `==` (I used 2 since we don't know how many is several).
 </details> 
 
+<details>
+  <summary> Level 10 </summary>  
+
+  The password for the next level is stored in the file `data.txt`, which contains base64 encoded data.
+  ```
+  cat data.txt | base64 -d
+  ```   
+ <img width="450" height="42" alt="image" src="https://github.com/user-attachments/assets/c2cd9e37-2dfc-4b00-8971-d5f02a614f89" />
+
+  **Explanation:** Use `base64` with the `-d` flag to decode the base64 encoded data.
+</details>
+
+
+
