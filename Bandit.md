@@ -74,3 +74,18 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   
   **Explaination:** Use the `file` command to determine the file type. The `*` wildcard can be used to refer to all files.
 </details> 
+
+<details>
+  <summary> Level 6 </summary>  
+
+  The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+  - human-readable
+  - 1033 bytes in size
+  - not executable
+  ```
+  find . -size 1033c ! -executable | xargs file | grep ASCII
+  ```   
+  <img width="758" height="48" alt="image" src="https://github.com/user-attachments/assets/42d86d2c-defb-4ac3-a852-c5b5119daa6b" />
+  
+  **Explaination:** Use the `find` command with the `-size` and `-executable` flags, then run `file` on them and filters results for ASCII text files.
+</details> 
