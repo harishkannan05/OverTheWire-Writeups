@@ -78,7 +78,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 <details>
   <summary> Level 6 </summary>  
 
-  The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+  The password for the next level is stored in a file somewhere under the `inhere` directory and has all of the following properties:
   - human-readable
   - 1033 bytes in size
   - not executable
@@ -105,6 +105,17 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Use the `find` command with the `-user`, `-group`, and `-size` flags and redirect errors to `/dev/null`.
 </details> 
 
+<details>
+  <summary> Level 7 </summary>  
+
+  The password for the next level is stored in the file `data.txt` next to the word **millionth**
+  ```
+  cat data.txt | grep millionth
+  ```   
+ <img width="446" height="41" alt="image" src="https://github.com/user-attachments/assets/4cf2b2ab-8393-4f12-8d3b-ce4cb2ef2079" />
+
+  **Explanation:** Prints the contents of `data.txt` and filters out only the line containing the word **millionth.**
+</details> 
 
 
 
