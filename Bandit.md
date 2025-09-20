@@ -114,7 +114,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
  <img width="446" height="41" alt="image" src="https://github.com/user-attachments/assets/4cf2b2ab-8393-4f12-8d3b-ce4cb2ef2079" />
 
-  **Explanation:** Prints the contents of `data.txt` and filters out only the line containing the word **millionth.**
+  **Explanation:** Print the contents of `data.txt` and filter out only the line containing the word **millionth** with `grep`
 </details> 
 
 <details>
@@ -129,5 +129,15 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Use `uniq` with the `-u` flag to print all unique lines. Uniq only checks adjacent lines, so sort the file first. 
 </details> 
 
+<details>
+  <summary> Level 9 </summary>  
 
+  The password for the next level is stored in the file `data.txt` in one of the few human-readable strings, preceded by **several ‘=’ characters.**
+  ```
+  strings data.txt | grep ==
+  ```   
+ <img width="416" height="99" alt="image" src="https://github.com/user-attachments/assets/634df51b-40c2-455e-be4e-e900473fe1f4" />
+
+  **Explanation:** Use `strings` to print out all the human-readable text. With `grep` filter out the text containing `==` (I used 2 since we don't know how many is several).
+</details> 
 
