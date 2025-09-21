@@ -91,7 +91,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details> 
 
 <details>
-  <summary> Level 6 </summary>  
+  <summary> Level 7 </summary>  
 
   The password for the next level is stored somewhere on the server and has all of the following properties:
   - owned by user bandit7
@@ -106,7 +106,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details> 
 
 <details>
-  <summary> Level 7 </summary>  
+  <summary> Level 8 </summary>  
 
   The password for the next level is stored in the file `data.txt` next to the word **millionth**
   ```
@@ -118,7 +118,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details> 
 
 <details>
-  <summary> Level 8 </summary>  
+  <summary> Level 9 </summary>  
 
   The password for the next level is stored in the file `data.txt` and is the only line of text that occurs only once.
   ```
@@ -130,7 +130,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details> 
 
 <details>
-  <summary> Level 9 </summary>  
+  <summary> Level 10 </summary>  
 
   The password for the next level is stored in the file `data.txt` in one of the few human-readable strings, preceded by **several ‘=’ characters.**
   ```
@@ -142,7 +142,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details> 
 
 <details>
-  <summary> Level 10 </summary>  
+  <summary> Level 11 </summary>  
 
   The password for the next level is stored in the file `data.txt`, which contains base64 encoded data.
   ```
@@ -154,7 +154,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details>
 
 <details>
-  <summary> Level 11 </summary>  
+  <summary> Level 12 </summary>  
 
   The password for the next level is stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
   ```
