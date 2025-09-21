@@ -193,4 +193,15 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Use the `ssh` command with the `-i` flag to login using the private key of **bandit14.** The passwords can be found in `/etc/bandit_pass/`.
 </details>
 
+<details>
+  <summary> Level 14 </summary>  
+
+  The password for the next level can be retrieved by submitting the password of the current level to **port 30000 on localhost**.
+  ```
+  nc localhost 30000
+  ```   
+  <img width="347" height="86" alt="image" src="https://github.com/user-attachments/assets/c7c81e4d-3dc1-4516-a488-fa68aaac8e95" />
+
+  **Explanation:** Use the `nc` command to connect to port 30000 on localhost and submit the password. 
+</details>
 
