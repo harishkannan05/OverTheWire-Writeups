@@ -194,7 +194,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 </details>
 
 <details>
-  <summary> Level 14 </summary>  
+  <summary> Level 15 </summary>  
 
   The password for the next level can be retrieved by submitting the password of the current level to **port 30000 on localhost**.
   ```
