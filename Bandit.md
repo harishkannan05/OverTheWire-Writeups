@@ -190,7 +190,7 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   ```   
  <img width="933" height="136" alt="image" src="https://github.com/user-attachments/assets/1f0e270b-1de0-41d8-97a2-51134b78b6c5" />
 
-  **Explanation:** Use the `ssh` command with the `-i` flag to login using the private key of **bandit14.**
+  **Explanation:** Use the `ssh` command with the `-i` flag to login using the private key of **bandit14.** The passwords can be found in `/etc/bandit_pass/`.
 </details>
 
 
