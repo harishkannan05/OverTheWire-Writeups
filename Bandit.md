@@ -165,3 +165,18 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
   **Explanation:** Use `tr` to translate (rotate) the letters. So, "A-Z" maps to "N-ZA-M" and "a-z" to "n-za-m"
 </details>
 
+<details>
+  <summary> Level 13 </summary>  
+
+  The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work. Use mkdir with a hard to guess directory name. Or   better, use the command “mktemp -d”. Then copy the datafile using cp, and rename it using mv (read the manpages!)
+  ```
+  file {File_Name}
+  mv {Old_Name} {New_Name}
+  gzip -d {File_name}.gz
+  bzip2 -d {File_name}.bz2
+  tar -xf {File_name}.tar
+  ```   
+ <img width="443" height="79" alt="image" src="https://github.com/user-attachments/assets/ced6e78a-2523-45a4-ad92-f704e21a987d" />
+
+  **Explanation:** Use the `file` command to check what type of file it is. Us the `mv` command to rename the files to match the required format and decompress the file using the related commands, until you get a human readable file.
+</details>
