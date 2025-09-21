@@ -180,3 +180,17 @@ Start at **[Level 0](https://overthewire.org/wargames/bandit/bandit0.html)** and
 
   **Explanation:** Use the `file` command to check what type of file it is. Us the `mv` command to rename the files to match the required format and decompress the file using the related commands, until you get a human readable file.
 </details>
+
+<details>
+  <summary> Level 14 </summary>  
+
+  The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname       that refers to the machine you are working on
+  ```
+  ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private
+  ```   
+ <img width="933" height="136" alt="image" src="https://github.com/user-attachments/assets/1f0e270b-1de0-41d8-97a2-51134b78b6c5" />
+
+  **Explanation:** Use the `ssh` command with the `-i` flag to login using the private key of **bandit14.** The passwords are stored in `/etc/bandit_pass/`.
+</details>
+
+
